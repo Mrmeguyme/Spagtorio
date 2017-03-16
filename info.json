@@ -1,9 +1,10 @@
 {
     "name": "Spagtorio",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "title": "Mrmeguyme's Spagtorio",
     "author": "Mrmeguyme, ",
     "contact": "https://reddit.com/u/mrmeguyme",
     "homepage": "https://github.com/Mrmeguyme/Spagtorio",
-    "description": "The original Spaghetti Mod."
+    "description": "The original Spaghetti Mod.",
+	"factorio_version": "0.14"
 }

@@ -15,10 +15,5 @@ data:extend({
 	flags = { "goes-to-main-inventory" },
 	subgroup = "spaghetti-stuff",
 	stack_size = 200
-  },
-  {
-	type = "item",
-	name = "boiled-water-cup",
-	icon = "__spagtorio__/graphics/icons/icon_boiled-water-cup"
   }
   })
