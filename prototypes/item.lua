@@ -3,17 +3,17 @@ data:extend({
  {
     type = "item",
     name = "uncooked-spaghetti",
-    icon = "__spagtorio__/graphics/icon_uncookedspag.png",
+    icon = "__Spagtorio__/graphics/icons/uncookedspag.png",
     flags = { "goes-to-main-inventory" },
-    subgroup = "spaghetti-stuff",
+    subgroup = "spagtorio-ingredients",
     stack_size = 200,
   },
   {
 	type = "item",
 	name = "spaghetti",
-	icon = "__spagtorio__/graphics/icons/icon_spag.png",
+	icon = "__Spagtorio__/graphics/icons/spag.png",
 	flags = { "goes-to-main-inventory" },
-	subgroup = "spaghetti-stuff",
+	subgroup = "spagtorio-ingredients",
 	stack_size = 200
   }
   })

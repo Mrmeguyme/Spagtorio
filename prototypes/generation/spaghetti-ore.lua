@@ -13,14 +13,14 @@ data:extend(
    {
    type = "resource",
    name = "spaghetti-ore",
-   icon = "__Spagtorio__/graphics/icons/spaghetti-ore.png",
+   icon = "__Spagtorio__/graphics/icons/spag.png",
    flags = {"placeable-neutral"},
    order="a-b-a",
    map_color = {r=0.26, g=0.30, b=0.39},
    minable =
    {
      hardness = 0.1,
-     mining_particle = "spaghetti-ore-particle",
+     mining_particle = "copper-ore-particle",
      mining_time = 1.5,
      result = "uncooked-spaghetti"
    },
@@ -56,7 +56,7 @@ data:extend(
    {
      sheet =
      {
-      filename = "__angelsinfiniteores__/graphics/entity/ores/ore-6.png",
+      filename = "__Spagtorio__/graphics/entity/spaghetti-ore/spaghetti-ore.png",
       priority = "extra-high",
         width = 38,
         height = 38,
@@ -65,14 +65,5 @@ data:extend(
      }
    },
   },
-{
-    type = "item",
-    name = "spaghetti-ore",
-    icon = "__angelsrefining__/graphics/icons/spaghetti-ore.png",
-    flags = {"goes-to-main-inventory"},
-   subgroup = "angels-ores",
-    order = "a[spaghetti-ore]",
-    stack_size = 200
-},
 }
 )
