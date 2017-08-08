@@ -19,7 +19,7 @@ data:extend({
   {
 	type = "capsule",
     name = "spaghetti-meatballs",
-    icon = "__Spagtorio__/graphics/icons/spag.png",
+    icon = "__Spagtorio__/graphics/icons/meatspag.png",
     flags = {"goes-to-quickbar"},
     subgroup = "spagtorio-ingredients",
 	stack_size = 10,
