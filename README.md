@@ -5,3 +5,5 @@ The Spaghetti mod for factorio
 * Mine-able Spaghetti Ore
 
 * Cookable spaghetti item
+
+* Eat-able Spaghetti and Meatballs
