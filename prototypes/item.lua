@@ -114,7 +114,7 @@ data:extend({
   {
 	type = "item",
 	name = "meatball",
-	icon = "__Spagtorio__/graphics/icons/meat",
+	icon = "__Spagtorio__/graphics/icons/meat.png",
 	flags = {"goes-to-main-inventory"},
 	subgroup = "spagtorio-ingredients",
 	stack_size = 200
@@ -122,7 +122,7 @@ data:extend({
   {
 	type = "item",
 	name = "uncooked-meatball",
-	icon = "__Spagtorio__/graphics/icons/uncookedmeat",
+	icon = "__Spagtorio__/graphics/icons/uncookedmeat.png",
 	flags = {"goes-to-main-inventory"},
 	subgroup = "spagtorio-ingredients",
 	stack_size = 200
