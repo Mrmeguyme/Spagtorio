@@ -18,8 +18,21 @@ data:extend({
 	enabled = "true",
 	ingredients = 
 	{
-		{"spaghetti", 5}
+		{"spaghetti", 1},
+		{"meatball", 5}
 	},
 	result = "spaghetti-meatballs"
+},
+
+{
+	type = "recipe",
+	name = "meatball",
+	category = "smelting",
+	enabled = "true",
+	ingredients =
+	{
+		{"uncooked-meatball", 1}
+	},
+	result = "meatball"
 }
 })
