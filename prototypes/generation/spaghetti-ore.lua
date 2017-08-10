@@ -1,5 +1,4 @@
-data:extend(
-{
+data:extend({
    {
    type = "autoplace-control",
    name = "spaghetti-ore",
@@ -10,24 +9,22 @@ data:extend(
    type = "noise-layer",
    name = "spaghetti-ore"
    },
-   {
-   type = "resource",
-   name = "spaghetti-ore",
-   icon = "__Spagtorio__/graphics/icons/spag.png",
-   flags = {"placeable-neutral"},
-   order="a-b-a",
-   map_color = {r=0.26, g=0.30, b=0.39},
-   minable =
-   {
-     hardness = 0.1,
-     mining_particle = "copper-ore-particle",
-     mining_time = 1.5,
-     result = "uncooked-spaghetti"
-   },
-   collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
-   selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
-   autoplace =
-   {
+{
+	type = "resource",
+    name = "spaghetti-ore",
+    icon = "__Spagtorio__/graphics/icons/" .. "uncookedspag" .. ".png",
+    flags = {"placeable-neutral"},
+    order="a-b-a",
+	minable = {
+    hardness = 0.1,
+    mining_particle = "copper-ore-particle",
+    mining_time = 1.5,
+    result = "uncooked-spaghetti"
+    },
+    collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
+    selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
+    autoplace =
+	{
      control = "spaghetti-ore",
      sharpness = 1,
      richness_multiplier = 13000,
@@ -50,20 +47,30 @@ data:extend(
         starting_area_weight_max_range = 2,
       },
      },
-   },
-    stage_counts = {1000, 600, 400, 200, 100, 50, 20, 1},
-   stages =
-   {
-     sheet =
-     {
-      filename = "__Spagtorio__/graphics/entity/spaghetti-ore/spaghetti-ore.png",
-      priority = "extra-high",
-        width = 38,
-        height = 38,
-        frame_count = 4,
-        variation_count = 8
-     }
-   },
-  },
+	},
+    stage_counts = {5000, 3000, 1500, 800, 400, 100, 50, 10},
+    stages =
+    {
+      sheet =
+      {
+        filename = "__Spagtorio__/graphics/entity/" .. "spaghetti-ore" .. "/" .. "spaghetti-ore" .. ".png",
+        priority = "extra-high",
+        width = 64,
+        height = 64,
+        frame_count = 8,
+        variation_count = 8,
+        hr_version =
+          {
+          filename = "__Spagtorio__/graphics/entity/" .. "spaghetti-ore" .. "/hr-" .. "spaghetti-ore" .. ".png",
+          priority = "extra-high",
+          width = 128,
+          height = 128,
+          frame_count = 8,
+          variation_count = 8,
+          scale = 0.5
+          }
+      }
+    },
+    map_color = {r=0.9, g=0.10, b=0.1}
 }
-)
+})
