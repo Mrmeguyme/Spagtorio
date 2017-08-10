@@ -2,17 +2,8 @@
 The Spaghetti mod for factorio
 
 ## Current Features
-* Mine-able Spaghetti and Meatball Ores
+* Mine-able Spaghetti Ore
 
 * Cookable spaghetti item
 
-* All spaghetti heals, but make sure it's cooked!
-
-* Eatable Spaghetti and Meatballs
-
-* Cookable Meatballs
-
-## Future Plans
-* Items which are of use.
-
-* Changes to how the game works.
+* Eat-able Spaghetti and Meatballs

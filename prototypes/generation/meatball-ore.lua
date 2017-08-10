@@ -71,6 +71,6 @@ data:extend({
           }
       }
     },
-    map_color = {r=0.1, g=0.9, b=0.9}
+    map_color = {r=0.9, g=0.10, b=0.1}
 }
 })

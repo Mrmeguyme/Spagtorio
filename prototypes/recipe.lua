@@ -34,5 +34,18 @@ data:extend({
 		{"uncooked-meatball", 1}
 	},
 	result = "meatball"
+},
+
+{
+	type = "recipe",
+	name = "spaghetti-marinara",
+	category = "crafting",
+	enabled = "true",
+	ingredients =
+	{
+		{"spaghetti", 5},
+		{"raw-fish", 3}
+	},
+	result = "spaghetti-marinara"
 }
 })

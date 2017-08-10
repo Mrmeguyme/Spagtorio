@@ -11,5 +11,11 @@ data:extend({
         name = "spagtorio-ingredients",
         group = "spagtorio-group",
         order = "l",
-    }
+    },
+	{
+		type = "item-subgroup",
+		name = "spagtorio-meals",
+		group = "spagtorio-group",
+		order = "l",
+	}
 	})
