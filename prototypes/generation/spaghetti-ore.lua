@@ -55,8 +55,8 @@ data:extend({
       {
         filename = "__Spagtorio__/graphics/entity/" .. "spaghetti-ore" .. "/" .. "spaghetti-ore" .. ".png",
         priority = "extra-high",
-        width = 64,
-        height = 64,
+        width = 2,
+        height = 2,
         frame_count = 8,
         variation_count = 8,
         hr_version =
