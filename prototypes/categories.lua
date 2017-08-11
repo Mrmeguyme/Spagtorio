@@ -17,5 +17,11 @@ data:extend({
 		name = "spagtorio-meals",
 		group = "spagtorio-group",
 		order = "l",
+	},
+	{
+		type = "item-subgroup",
+		name = "spagtorio-buildings",
+		group = "spagtorio-group",
+		order = "l",
 	}
 	})

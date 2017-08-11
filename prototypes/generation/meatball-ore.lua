@@ -55,8 +55,8 @@ data:extend({
       {
         filename = "__Spagtorio__/graphics/entity/" .. "meatball-ore" .. "/" .. "meatball-ore" .. ".png",
         priority = "extra-high",
-        width = 2,
-        height = 2,
+        width = 16,
+        height = 16,
         frame_count = 8,
         variation_count = 8,
         hr_version =
