@@ -7,3 +7,7 @@ The Spaghetti mod for factorio
 * Cookable spaghetti item
 
 * Eat-able Spaghetti and Meatballs
+
+* Spaghetti Marinara and Carbonara
+
+* Cook your meals in the Meal Preparation Machine
