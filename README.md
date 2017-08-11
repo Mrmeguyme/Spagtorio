@@ -11,3 +11,5 @@ The Spaghetti mod for factorio
 * Spaghetti Marinara and Carbonara
 
 * Cook your meals in the Meal Preparation Machine
+
+* BACON!!
